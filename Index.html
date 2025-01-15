@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper scissor</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissor</h1>
+        <div class="score">
+            <div class="user">
+                <h2>My score :</h2>
+                <h2 id="myscore">0</h2>
+            </div>
+            <div class="computer">
+                <h2>Computer Score :</h2>
+                <h2 id="compscore">0</h2>
+            </div>
+        </div>
+
+        <div class="show">
+            <div class="userShow">
+                <h2 class="Usercomp">User</h2>
+                <img id="userimage" src="" alt="">
+            </div>
+            <div class="compShow">
+                <h2 class="Usercomp">Computer</h2>
+                <img id="compimage" src="" alt="">
+            </div>
+        </div>
+
+        <div class="rs">
+            <h2>Result :</h2>
+            <h2 id="result"></h2>
+        </div>
+        <div class="img">
+            <img class="imgbtn" onclick="myFun1()" src="/Rock Paper scissor/Assests/Rock.png" alt="Rock">
+            <img class="imgbtn paper" onclick="myFun2()" src="/Rock Paper scissor/Assests/Paper.png" alt="Paper">
+            <img class="imgbtn" onclick="myFun3()" src="/Rock Paper scissor/Assests/Scissors.png" alt="Scissor">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
